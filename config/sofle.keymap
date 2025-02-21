@@ -63,7 +63,7 @@
 &kp TAB     &kp A         &kp C   &kp O         &kp P         &kp Z                              &kp J       &kp SEMICOLON  &kp D     &kp SLASH  &kp Y   &kp BSPC
 &mo 1       &kp Q         &kp S   &kp E         &kp N         &kp F                              &kp L       &kp R          &kp T     &kp I      &kp U   &kp LEFT_BRACKET
 &kp LSHFT   &kp W         &kp X   &kp M         &kp V         &kp B      &none        &none      &kp PERIOD  &kp H          &kp G     &kp COMMA  &kp K   &kp RSHFT
-                          &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &kp ENTER  &mo 4       &kp RCTRL      &kp RALT  &kp RGUI
+                          &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &kp ENTER  &mo 2       &kp RCTRL      &kp RALT  &kp RGUI
             >;
 
             sensor-bindings = <&my_leds_off>, <&my_leds_off>;
