@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define BASE 0
@@ -64,7 +63,7 @@
 &kp TAB     &kp A         &kp C   &kp O         &kp P         &kp Z                              &kp J       &kp SEMICOLON  &kp D     &kp SLASH  &kp Y   &kp BSPC
 &mo 1       &kp Q         &kp S   &kp E         &kp N         &kp F                              &kp L       &kp R          &kp T     &kp I      &kp U   &kp LEFT_BRACKET
 &kp LSHFT   &kp W         &kp X   &kp M         &kp V         &kp B      &none        &none      &kp PERIOD  &kp H          &kp G     &kp COMMA  &kp K   &kp RSHFT
-                          &none   &kt LEFT_GUI  &kt LEFT_ALT  &kt LCTRL  &kp SPACE    &kp ENTER  &mo 2       &kt RCTRL      &kt RALT  &kt RGUI
+                          &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &kp ENTER  &mo 2       &kp RCTRL      &kp RALT  &kp RGUI
             >;
 
             sensor-bindings = <&my_leds_off>, <&my_leds_off>;
