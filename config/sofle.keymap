@@ -81,11 +81,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans          &trans             &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &kp SQT         &kp UP_ARROW       &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp ASTERISK  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &kp BACKSLASH   &kp LS(BACKSLASH)  &trans     &trans  &trans
-                &trans  &trans  &trans  &trans  &mo 3     &trans  &trans        &trans          &trans             &trans
+&bootloader  &studio_unlock  &trans  &trans  &trans  &trans                    &sys_reset    &trans          &trans             &trans     &trans  &trans
+&trans       &trans          &trans  &trans  &trans  &trans                    &trans        &kp SQT         &kp UP_ARROW       &trans     &trans  &trans
+&trans       &trans          &trans  &trans  &trans  &trans                    &kp ASTERISK  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT  &trans  &trans
+&trans       &trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans        &kp BACKSLASH   &kp LS(BACKSLASH)  &trans     &trans  &trans
+                             &trans  &trans  &trans  &trans  &mo 3     &trans  &trans        &trans          &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
