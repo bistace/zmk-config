@@ -83,7 +83,7 @@
             bindings = <
 &bootloader  &studio_unlock  &trans  &trans  &trans  &trans                    &sys_reset  &trans          &trans             &trans     &trans  &trans
 &trans       &trans          &trans  &trans  &trans  &trans                    &trans      &kp SQT         &kp UP_ARROW       &trans     &trans  &trans
-&trans       &trans          &trans  &trans  &trans  &trans                    &kp STAR    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT  &trans  &trans
+&trans       &trans          &trans  &trans  &trans  &trans                    &kp ASTRK   &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT  &trans  &trans
 &trans       &trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans      &kp BACKSLASH   &kp LS(BACKSLASH)  &trans     &trans  &trans
                              &trans  &trans  &trans  &trans  &mo 3     &trans  &trans      &trans          &trans             &trans
             >;
@@ -94,7 +94,7 @@
         Symbols {
             display-name = "lower";
             bindings = <
-&trans  &trans            &trans             &kp NUBS          &kp LS(NON_US_BACKSLASH)  &trans                              &trans  &trans      &trans     &trans  &sys_reset  &bootloader
+&trans  &trans            &trans             &kp NON_US_BSLH   &kp LS(NON_US_BACKSLASH)  &trans                              &trans  &trans      &trans     &trans  &sys_reset  &bootloader
 &trans  &kp RA(NUMBER_0)  &kp RIGHT_BRACKET  &kp NUMBER_5      &kp MINUS                 &kp RA(N7)                          &trans  &trans      &trans     &trans  &trans      &trans
 &trans  &kp EQUAL         &kp RA(NUMBER_3)   &kp RA(N5)        &kp RA(MINUS)             &kp LS(EQUAL)                       &trans  &kp ESCAPE  &kp ENTER  &trans  &trans      &trans
 &trans  &kp RA(NUMBER_8)  &kp RA(NUMBER_6)   &kp RA(NUMBER_4)  &kp RA(EQUAL)             &kp RA(NUMBER_2)  &trans    &trans  &trans  &trans      &trans     &trans  &trans      &trans
